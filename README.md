@@ -31,35 +31,18 @@ To move beyond static queries, the project integrates a Retrieval-Augmented Gene
 * **Web Interface:** Streamlit
 
 ## 🚀 How to Run Locally
-
 **1. Clone the repository**
-bash
-git clone [https://github.com/mesudegrn/financial-intelligence-engine.git](https://github.com/mesudegrn/financial-intelligence-engine.git)
+git clone https://github.com/mesudegrn/financial-intelligence-engine.git
 cd financial-intelligence-engine
 
 **2. Install required libraries**
-
-Bash
 pip install -r requirements.txt
 
 **3. Add your API Key**
-
 You need a free Google Gemini API key to run the AI engine. Set it as an environment variable in your terminal:
-
-
-For Windows (Command Prompt):
-
-
-DOS
-set GEMINI_API_KEY="your_api_key_here"
-For Mac/Linux:
-
-
-Bash
-export GEMINI_API_KEY="your_api_key_here"
+For Windows: set GEMINI_API_KEY="your_api_key_here"
+For Mac/Linux: export GEMINI_API_KEY="your_api_key_here"
 
 **4. Start the Application**
-
-Bash
 streamlit run app.py
 (This will automatically open the AI Chatbot interface in your web browser).
