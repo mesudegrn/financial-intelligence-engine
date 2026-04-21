@@ -32,7 +32,7 @@ To move beyond static queries, the project integrates a Retrieval-Augmented Gene
 ## 🚀 How to Run Locally
 
 **1. Clone the repository**
-```bash
+bash
 git clone [https://github.com/yourusername/financial-intelligence-engine.git](https://github.com/mesudegrn/financial-intelligence-engine.git)
 cd financial-intelligence-engine
 
