@@ -1,33 +1,35 @@
-# 📊 Financial Intelligence Engine: Rule-Based to Generative AI
+# 📊 Financial Intelligence Engine: From Rule-Based Logic to RAG-Augmented AI
 
-## 📌 Project Overview
-This repository showcases a comprehensive financial data analysis pipeline, evolving from a deterministic, rule-based logic system into a dynamic, AI-powered analytical interface. The project utilizes official financial data (2023-2025) from industry leaders: **Apple (AAPL), Microsoft (MSFT), and Tesla (TSLA)**.
+## 📌 Project Overview & Strategic Context
+This project was developed within the framework of the **BCG (Boston Consulting Group) Strategic Financial Analysis Job Simulation**. It aims to replicate the high-stakes analytical rigor required in management consulting by transforming raw financial data into actionable strategic insights.
 
-The core objective is to demonstrate the optimization of financial data processing and the deployment of a dual-engine chatbot architecture for instant data retrieval and strategic reasoning.
+The repository showcases a dual-engine architecture designed to process 10-K data (2023-2025) for **Apple (AAPL), Microsoft (MSFT), and Tesla (TSLA)**, evolving from a deterministic engineering approach to an advanced AI-driven advisory interface.
 
 ## ⚙️ The Dual-Engine Architecture
 
-This project is built upon two distinct phases, highlighting the progression from strict data engineering to advanced Natural Language Processing (NLP).
+To meet the "zero-error" standards of top-tier consulting, the system employs a hybrid methodology:
 
-### Phase 1: The Deterministic Engine (Rule-Based Logic)
-Located in `financial_analysis.ipynb`.
-Before introducing AI, it is critical to ensure data integrity. This phase involves:
-* **Data Engineering:** Cleaning and structuring raw SEC 10-K data using `pandas`.
-* **Metric Calculation:** Automated computation of YoY Revenue Growth, Net Income Growth, and Asset Turnover.
-* **Manual Chatbot Prototype:** A custom-built, `if-else` driven command-line interface. This engine guarantees 100% accuracy with zero risk of AI hallucination by utilizing explicit keyword extraction and mapping.
+### 🔹 Phase 1: The Deterministic Sentinel (Consulting Core)
+* **Objective:** Ensure 100% data integrity for financial auditing.
+* **Tech:** Python, Pandas.
+* **Method:** Automated computation of key performance indicators (KPIs) like YoY Growth and Asset Turnover. By using rule-based logic, this engine eliminates **AI Hallucinations**, providing a "Single Source of Truth" for quantitative reporting.
 
-### Phase 2: The Generative AI Engine (Gemini 3 Integration)
-Located in `app.py`.
-To move beyond static queries, the project integrates a Retrieval-Augmented Generation (RAG) approach using the **Google GenAI SDK**.
-* **LLM Integration:** Powered by the state-of-the-art `gemini-3-flash-preview` model.
-* **Strategic Reasoning:** The model does not just retrieve numbers; it analyzes trends, compares cross-company metrics, and explains the *why* behind the financial shifts.
-* **Modern UI Deployment:** The AI engine is wrapped in a sleek, Dark Mode-supported web interface built with `Streamlit`, providing a seamless user experience.
+### 🔹 Phase 2: The Strategic Oracle (Gemini 3 & RAG)
+* **Objective:** Deliver executive-level qualitative reasoning.
+* **Tech:** Google Gemini 3 (State-of-the-art Engine), Google GenAI SDK.
+* **Architecture:** **Retrieval-Augmented Generation (RAG)** framework.
+* **Method:** This layer acts as a **Senior Consultant**. It doesn't just pull numbers; it synthesizes the data to answer complex "Why?" questions, such as analyzing the impact of margin compression on long-term valuation.
 
 ## 🛠️ Technology Stack
-* **Language:** Python 3.12+
-* **Data Processing:** Pandas
-* **Generative AI:** Google GenAI SDK (Gemini 3)
-* **Web Interface:** Streamlit
+* **Analytical Engine:** Python 3.12+, Pandas, NumPy
+* **Generative AI:** Google GenAI SDK (Gemini 3 Flash/Pro)
+* **NLP Architecture:** Retrieval-Augmented Generation (RAG)
+* **Delivery Interface:** Streamlit (Configured with a professional, dark-themed UI)
+
+## 🚀 Key Strategic Insights Delivered
+* 📈 **Automated KPI Dashboard:** Instant visualization of 3-year revenue trajectories and net income margins.
+* 🔍 **Comparative Intelligence:** Cross-company benchmarking to identify market leaders and operational laggards.
+* 🧠 **LLM-Powered Reasoning:** Professional, consultant-grade analysis generated through high-fidelity context injection.
 
 ## 🚀 How to Run Locally
 
