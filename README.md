@@ -34,7 +34,7 @@ To move beyond static queries, the project integrates a Retrieval-Augmented Gene
 
 **1. Clone the repository**
 bash
-git clone [https://github.com/yourusername/financial-intelligence-engine.git](https://github.com/mesudegrn/financial-intelligence-engine.git)
+git clone [https://github.com/mesudegrn/financial-intelligence-engine.git](https://github.com/mesudegrn/financial-intelligence-engine.git)
 cd financial-intelligence-engine
 
 **2. Install required libraries**
