@@ -24,7 +24,7 @@ except FileNotFoundError:
 
 # 3. API Yapılandırması
 # Güvenlik için API Key'i doğrudan koda yazmak yerine Streamlit secrets veya env kullanılması önerilir.
-API_KEY = "AIzaSyDdrNaCOY-eemJfS0TdzA-4yycmfd8gvbc" 
+API_KEY = "PASTE_YOUR_API_KEY_HERE" 
 genai.configure(api_key=API_KEY)
 
 @st.cache_resource
